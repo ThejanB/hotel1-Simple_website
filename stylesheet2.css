@@ -1,0 +1,27 @@
+.banner {
+    width: 100%;
+    max-height: calc(min(100vw - 20px, 450px));
+    overflow: hidden;
+}
+
+img {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.photo-list {
+    float: right;
+    width: 50%;
+    height: 320px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-list img {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    height: auto;
+}
